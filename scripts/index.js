@@ -45,7 +45,6 @@ const  getServicePercentPrices = function(fullPrice, rollback) {
 };
 
 allServicePrices = getAllServicePrices(servicePrice1, servicePrice2);
-
 fullPrice = getFullPrice(screenPrice, allServicePrices);
 
 showTypeOf(title);
